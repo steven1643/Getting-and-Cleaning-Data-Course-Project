@@ -47,6 +47,6 @@ Add the subject and activity labels to the first two columns of the joinData dat
 
 Step 5:
 
-Using the dplyr package group the cleanedData by subject then activity and take the mean of each column. I chose to group the data by subject then activity (instead of activity first) because it was easier to quickly look at the data and see the different means each subject had in the different activities.
+Using the dplyr package grouped the cleanedData by subject then activity and took the mean of each column. I chose to group the data by subject then activity (instead of activity first) because it was easier to quickly look at the data and see the different means each subject had in the different activities. Wrote this to cleanedData.means data frame with dims of [180 81].
 
 Write the result out to "data_with_means.txt" file in current working directory.
